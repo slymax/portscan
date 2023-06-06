@@ -4,8 +4,7 @@
   "description": "a simple port scanner for common vulnerabilities",
   "author": "slymax",
   "dependencies": {
-    "minimist": "^1.2.5",
-    "node-fetch-cache": "^1.0.4"
+    "minimist": "^1.2.5"
   },
   "scripts": {
     "start": "node index.js"

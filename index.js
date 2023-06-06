@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
 const net = require("net");
-const cache = __dirname + "/.cache";
 const argv = require("minimist")(process.argv);
-const fetch = require("node-fetch-cache")(cache);
 const cli = require.main === module;
 
 const getServices = ({ search, limit }) => {
